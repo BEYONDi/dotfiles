@@ -23,3 +23,6 @@
   path = .gitconfig.local
 [commit]
   template = ~/.gitmessage
+[user]
+	name = Lenny Miller
+	email = lenny.l.miller@gmail.com
