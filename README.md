@@ -1,6 +1,10 @@
 thoughtbot dotfiles
 ===================
-
+Manual Steps
+-----------
+ln -s .dotfiles/vim .vim
+ln -s .dotfiles/zsh .zsh
+rcup -d .dotfiles -x Brefile -x LICENSE -x README.md -x vim -x zsh
 Requirements
 ------------
 
