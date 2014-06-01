@@ -14,6 +14,7 @@
   pr = !hub pull-request
   st = status
   up = !git fetch origin && git rebase origin/master
+	ctags = !.git/hooks/ctags
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
@@ -26,3 +27,5 @@
 [user]
 	name = Lenny Miller
 	email = lenny.l.miller@gmail.com
+[init]
+	templatedir = ~/.git_template
